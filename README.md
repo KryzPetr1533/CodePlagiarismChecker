@@ -11,4 +11,4 @@ There are 2 arguments required -- a path to the input file with the names of the
 #### Idea
 During work on this program I found 5 types of algorithm, for instance, from [here](https://habr.com/ru/post/583882/). This is the simplest realization.
 Basicly, program takes the texts, removes all spaces and finds Levenstein's distance between two on the same position in the text.
-Then all when all distances are summarized the sum is divided by average length of the text in symbols. This is the result.
+Then all when all distances are summarized the sum is divided by maximum length of the texts in symbols. This is the result.
